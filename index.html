@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <!-- Theme CSS -->
   <link href="css/freelancer.min.css" rel="stylesheet">
@@ -81,6 +81,7 @@
   <!-- Portfolio Section -->
   <section class="page-section portfolio" id="portfolio">
     <div class="container">
+      
 
       <!-- Portfolio Section Heading -->
       <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
@@ -95,19 +96,19 @@
       </div>
 
       <!-- Portfolio Grid Items -->
-    <div class="card" style="width: 400px">
-      <div class="card bg-primary">
-        <h4 class="card-title text-center" style="color: aliceblue;">Ravenous!</h4>
-        <img class="card-img-top" src="/ravenous/public/favicon.ico.ico" alt="Card image" height="10%">
-        <div class="card-body text-center">
-          <!-- <h4 class="card-title text-center" style="color: aliceblue;">Ravenous</h4> -->
-          <p class="card-text">Search restaurants based on categories and ratings. Skills: React, CSS</p>
-          <a href="https://react-projects-8484e.web.app" class="btn btn-primary stretched-link">See Project</a>
+    <div class="card-columns project-cards">
+      <div>
+        <div class="card bg-primary">
+          <h4 class="card-title text-center" style="color: aliceblue;">Ravenous!</h4>
+          <img class="card-img-top" src="/ravenous/public/favicon.ico.ico" alt="Card image" height="10%">
+          <div class="card-body text-center">
+            <p class="card-text">Search restaurants based on categories and ratings. Skills: React, Bootstrap, CSS.</p>
+            <a href="https://react-projects-8484e.web.app" class="btn btn-primary stretched-link">See Project</a>
 
+          </div>
         </div>
       </div>
-    </div>
-    <div class="card" style="width: 400px">
+      <div>
         <div class="card bg-primary">
           <img class="card-img-top" src="/westside-music/src/Components/App/background_photo_desktop.jpg" alt="Card image" height="30%">
           <div class="card-body text-center">
@@ -117,7 +118,8 @@
 
           </div>
         </div>
-    </div>
+      </div>
+      <div>
         <div class="card bg-primary">
           <img class="card-img-top" src="/weather_app/img/icons/2.svg" alt="Card image" height="30%">
           <div class="card-body text-center">
@@ -126,35 +128,41 @@
             <a href="/weather_app/index.html" class="btn btn-primary">See Project</a>
           </div>
         </div>
-        <div class="card bg-primary">
-          <img class="card-img-top" src="/chat_project/img/chat-icon.JPG" alt="Card image" height="30%">
-          <div class="card-body text-center">
-            <p class="card-text">This project utilized webpack and local storage to create a chatroom with different categories.
-              Firebase was used to store chat data.
-            </p>
-            <a href="/chat_project/index.html" class="btn btn-primary">See Project</a>
+      </div>
+      <div>
+          <div class="card bg-primary">
+            <img class="card-img-top" src="/chat_project/img/chat-icon.JPG" alt="Card image" height="30%">
+            <div class="card-body text-center">
+              <p class="card-text">This project utilized webpack and local storage to create a chatroom with different categories.
+                Firebase was used to store chat data.
+              </p>
+              <a href="/chat_project/index.html" class="btn btn-primary">See Project</a>
+            </div>
           </div>
-        </div>
-        <div class="card bg-primary">
-          <img class="card-img-top" src="/ninja_quiz/img/nin.JPG" alt="Card image" height="30%">
-          <div class="card-body text-center">
-            <p class="card-text">Skills: Event Driven Development, Responsive Web Design</p>
-            <a href="/ninja_quiz/index.html" class="btn btn-primary">See Project</a>
+      </div>
+      <div>
+          <div class="card bg-primary">
+            <img class="card-img-top" src="/ninja_quiz/img/nin.JPG" alt="Card image" height="30%">
+            <div class="card-body text-center">
+              <p class="card-text">Skills: Event Driven Development, Responsive Web Design.</p>
+              <a href="/ninja_quiz/index.html" class="btn btn-primary">See Project</a>
+            </div>
           </div>
-        </div>
-        <div class="card bg-primary">
-          <img class="card-img-top" src="/Todo_app/img/todo.JPG" alt="Card image" height="30%">
-          <div class="card-body text-center">
-            <p class="card-text">Enjoy this SPA with CRUD development. 
-             <br> Skills: JavaScript, Bootstrap</p>
-            <a href="/Todo_app/index.html" class="btn btn-primary">See Project</a>
+      </div>
+      <div>
+          <div class="card bg-primary">
+            <img class="card-img-top" src="/Todo_app/img/todo.JPG" alt="Card image" height="30%">
+            <div class="card-body text-center">
+              <p class="card-text">Enjoy this SPA with CRUD development. 
+                <br> Skills: JavaScript, Bootstrap.</p>
+              <a href="/Todo_app/index.html" class="btn btn-primary">See Project</a>
+            </div>
           </div>
-        </div>
-
-  
-      <!-- /.row -->
-
+      </div>
+  </div>
     </div>
+
+     
   </section>
 
   <!-- About Section -->
